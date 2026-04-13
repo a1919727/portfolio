@@ -14,7 +14,7 @@ const heroTitleFont = Playfair_Display({
   display: "swap",
 });
 
-export default function HomeHero() {
+export default function Hero() {
   const [index, setIndex] = useState(0);
   const typingCompleted = index >= message.length;
 
