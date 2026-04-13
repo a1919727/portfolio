@@ -1,4 +1,4 @@
-# Judy Portfolio
+# Portfolio
 
 ## Overview
 
@@ -16,6 +16,26 @@ It includes the following pages:
 - Tailwind CSS
 - shadcn/ui
 - react-icons
+
+## Project Structure
+```bash
+app/
+  data/
+  projects/
+  techstack/
+  types/
+  global.css
+  layout.tsx
+  page.tsx
+
+components/
+  ui/
+  HomeHero.tsx
+  NavBar.tsx
+
+lib/
+  utils.ts
+```
 
 ## Getting Started
 
