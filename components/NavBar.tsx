@@ -16,7 +16,7 @@ const Navbar = () => {
           aria-label="home"
           className={`${logoFont.className} text-foreground inline-flex shrink-0 items-center text-2xl font-semibold transition-colors hover:text-primary sm:text-3xl lg:text-4xl`}
         >
-          Judy
+          Di Zhu
         </Link>
         <nav className="text-muted-foreground flex items-center justify-end gap-3 text-xs font-medium sm:gap-5 sm:text-sm md:gap-8 md:text-base lg:gap-10 lg:text-lg">
           <Link href="/" className="transition-colors hover:text-primary">

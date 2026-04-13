@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import { useEffect, useState } from "react";
 
-const message = "Hi, I'm Judy.";
+const message = "Hi, I'm Di Zhu";
 const heroTitleFont = Playfair_Display({
   subsets: ["latin"],
   weight: ["800"],
