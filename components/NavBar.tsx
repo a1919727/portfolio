@@ -22,14 +22,17 @@ const Navbar = () => {
           <Link href="/" className="transition-colors hover:text-primary">
             Home
           </Link>
-          <Link href="/projects" className="transition-colors hover:text-primary">
+          <Link
+            href="/projects"
+            className="transition-colors hover:text-primary"
+          >
             Projects
           </Link>
-          <Link href="/techstack" className="transition-colors hover:text-primary">
+          <Link
+            href="/techstack"
+            className="transition-colors hover:text-primary"
+          >
             Tech stack
-          </Link>
-          <Link href="/contact" className="transition-colors hover:text-primary">
-            Contact
           </Link>
         </nav>
       </div>
