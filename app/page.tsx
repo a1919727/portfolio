@@ -1,3 +1,5 @@
+import HomeHero from "@/components/HomeHero";
+
 export default function App() {
-  return <>home</>;
+  return <HomeHero />;
 }
