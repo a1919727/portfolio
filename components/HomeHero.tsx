@@ -16,7 +16,7 @@ const heroTitleFont = Playfair_Display({
 
 export default function HomeHero() {
   const [index, setIndex] = useState(0);
-  const [typingCompleted, setTypingCompleted] = useState(false);
+  const typingCompleted = index >= message.length;
 
   useEffect(() => {
     if (index < message.length) {
@@ -25,7 +25,6 @@ export default function HomeHero() {
       }, 100);
       return () => clearTimeout(timer);
     }
-    setTypingCompleted(true);
   }, [index]);
   const displayText = message.slice(0, index);
 
