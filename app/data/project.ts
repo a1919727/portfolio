@@ -1,8 +1,31 @@
-import bookingImage from "@/app/public/booking.jpeg";
-import jobTrackerImage from "@/app/public/job-tracker.png";
 import movieImage from "@/app/public/movie.jpeg";
+import railBreakImage from "@/app/public/rail-break.jpeg";
+import fullStackMovieImage from "@/app/public/full-stack-movie.jpeg";
+import jobTrackerImage from "@/app/public/job-tracker.png";
+import jobSearchWorkImage from "@/app/public/job-search.jpeg";
 
 export const personalProjects = [
+  {
+    title: "Full stack movie review platform",
+    summary:
+      "A full-stack movie review platform for discovering movies, browsing movie details, saving favorites, tracking watch list, and writing reviews",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Prisma",
+      "PostgreSQL",
+      "Clerk",
+      "Cloudinary",
+      "Figma",
+      "Vercel",
+      "Railway",
+    ],
+    demoHref: "https://movie-1zmkb8af8-di-zhus-projects.vercel.app",
+    image: fullStackMovieImage,
+  },
   {
     title: "Movie.ai",
     summary:
@@ -15,23 +38,23 @@ export const personalProjects = [
       "TMDB API",
       "Gemini API",
     ],
-    demoHref: "https://main.d65imgxp8iknh.amplifyapp.com/",
+    demoHref: "https://main.d65imgxp8iknh.amplifyapp.com",
     image: movieImage,
   },
   {
-    title: "Study Room Booking System",
+    title: "Job Search Work",
     summary:
-      "A study room booking system supports user authentication, study room booking, and booking history.",
-    stack: ["React", "ASP.NET Core Web API", "SQL Server", "Azure", "Docker"],
-    demoHref: "https://zealous-flower-0f2eb1800.6.azurestaticapps.net",
-    image: bookingImage,
+      "Job Search Work is a AI platform to help users to track applications and recommend jobs",
+    stack: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GCP"],
+    demoHref: "https://jobsearch.works",
+    image: jobSearchWorkImage,
   },
   {
-    title: "Job Tracker",
+    title: "Rail Break Prediction ML",
     summary:
-      "A practical project designed around real-world usability, clean visual language, and thoughtful engineering decisions.",
-    stack: ["React", "Node.js", "MongoDB", "Azure"],
-    demoHref: "https://jolly-island-0b465a000.7.azurestaticapps.net",
-    image: jobTrackerImage,
+      "Railway track prediction project is to predict whether railway will break within the next 30 days",
+    stack: ["Python", "PySpark", "SQL", "scikit-learn", "Databricks"],
+    demoHref: "https://github.com/a1919727/RAIL-PG-2",
+    image: railBreakImage,
   },
 ];
