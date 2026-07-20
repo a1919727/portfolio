@@ -7,6 +7,7 @@ It includes the following pages:
 
 - Home
 - Projects
+- Experience
 - Tech Stack
 
 ## Tech Stack
@@ -22,6 +23,7 @@ It includes the following pages:
 app/
   data/
   projects/
+  experience/
   techstack/
   types/
   global.css
