@@ -29,6 +29,12 @@ const Navbar = () => {
             Projects
           </Link>
           <Link
+            href="/experience"
+            className="transition-colors hover:text-primary"
+          >
+            Experience
+          </Link>
+          <Link
             href="/techstack"
             className="transition-colors hover:text-primary"
           >
