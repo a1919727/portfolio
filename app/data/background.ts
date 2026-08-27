@@ -1,7 +1,7 @@
 export const background = {
   experience: [
     {
-      title: "Frontend Developer",
+      title: "Frontend Developer (Volunteer)",
       organization: "People For Nature",
       location: "Brisbane, Australia",
       date: "May 2024 - Present",
